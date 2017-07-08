@@ -75,9 +75,9 @@ public class ExpenseHelper extends SQLiteOpenHelper {
                 long id = db.insert(
                         ExpenseContract.TABLE_EXPENSE, null, values);
                 if (id != -1){
-
+                    Log.d(TAG, "readExpensesFromResources: inserted");
                 }else{
-
+                    Log.d(TAG, "readExpensesFromResources: failed");
                 }
             }
         } catch (IOException e) {
