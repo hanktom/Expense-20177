@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Expense</string>
     <string name="action_settings">Settings</string>
+    <string name="key_expenses">expenses</string>
+    <string name="key_cdate">cdate</string>
+    <string name="key_info">info</string>
+    <string name="key_amount">amount</string>
 </resources>
